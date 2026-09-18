@@ -137,16 +137,6 @@ Run programs in order: `01` → `01b` → `01c` → `02` → `03`. Program `03` 
 
 ---
 
-## Key Results
-
-**Experiment 1:** DFD null control (P2) confirms near-zero values for identically distributed signals across all filterbanks (max |DFD-bar| = 0.007 nats). Mel is threshold-sensitive to 53-EDO microtonal deviations at filter boundaries ($T_m > 100$ near 1500–2000 Hz); CQT tracks continuously. Bark accumulates detuning divergence monotonically; CQT saturates at ε ≈ 0.05.
-
-**Experiment 2:** Psychoacoustic filterbanks (Mel, Bark, ERB) compress cross-corpus divergence for Carnatic and Hindustani (z = −5.9 to −8.9). CQT amplifies divergence for Jingju (z = 14.1; 95% CI [+0.50, +0.78]) and Arab-Andalusian (z = 4.7; 95% CI [+0.11, +0.31]). Turkish Makam shows no significant DFD under any filterbank.
-
-**Experiment 3:** Spearman ρ = +0.817 (p < 0.001, 95% CI [+0.58, +0.93], N = 20) between DFD-bar and classifier overconfidence gap, establishing DFD as a model-free pre-training predictor of cross-corpus classifier behaviour.
-
----
-
 ## Filterbanks
 
 | Filterbank | Bands | Reference | Implementation |
